@@ -1,0 +1,32 @@
+# SSL Certificate Monitoring Hosts
+# Format: hostname:port (port is optional, defaults to 443)
+#
+# Examples:
+# mail.example.com
+# portal.example.com:8443
+# firewall.example.com
+
+# Web Servers
+mail.contoso.com
+webmail.contoso.com
+portal.contoso.com
+
+# VPN Gateways
+vpn.contoso.com:443
+vpn-backup.contoso.com:10443
+
+# Firewalls
+firewall-hq.contoso.com:443
+firewall-branch.contoso.com:4443
+
+# Internal Applications
+app1.contoso.com
+app2.contoso.com:8443
+crm.contoso.com
+
+# Remote Desktop Gateway
+rdp.contoso.com
+
+# Email Gateways
+mx1.contoso.com:587
+mx2.contoso.com:587

@@ -1,0 +1,6 @@
+FirstName,LastName,Department,Title,Manager,Groups
+John,Smith,IT,Systems Administrator,CN=Bob Johnson,CN=Users,DC=contoso,DC=com,IT-Staff;Domain Users
+Sarah,Williams,Finance,Financial Analyst,CN=Mary Davis,CN=Users,DC=contoso,DC=com,Finance-Team;Domain Users
+Michael,Johnson,Sales,Sales Manager,CN=Tom Wilson,CN=Users,DC=contoso,DC=com,Sales-Team;Sales-Managers;Domain Users
+Emily,Davis,HR,HR Coordinator,CN=Linda Martinez,CN=Users,DC=contoso,DC=com,HR-Team;Domain Users
+David,Brown,Engineering,Senior Engineer,CN=James Anderson,CN=Users,DC=contoso,DC=com,Engineering-Team;Domain Users

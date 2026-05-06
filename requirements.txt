@@ -1,0 +1,13 @@
+# Python Dependencies for Infrastructure Automation Scripts
+# Install with: pip install -r requirements.txt
+
+# SSH connectivity for network device backups
+paramiko>=2.11.0
+
+# Additional useful packages (optional but recommended)
+# Uncomment if needed for your environment
+
+# requests>=2.28.0          # HTTP requests and API calls
+# PyYAML>=6.0               # YAML configuration file support
+# python-dotenv>=0.20.0     # Environment variable management
+# cryptography>=38.0.0      # Enhanced encryption support

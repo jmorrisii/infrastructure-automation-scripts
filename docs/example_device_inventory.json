@@ -1,0 +1,35 @@
+{
+  "description": "Network Device Inventory for Automated Backups",
+  "default_username": "admin",
+  "default_password": "SecurePassword123!",
+  "devices": [
+    {
+      "hostname": "fw-hq-01",
+      "ip_address": "10.10.1.1",
+      "device_type": "fortinet",
+      "port": 22,
+      "comment": "Main office FortiGate firewall"
+    },
+    {
+      "hostname": "fw-branch-01",
+      "ip_address": "10.20.1.1",
+      "device_type": "cisco_asa",
+      "port": 22,
+      "comment": "Branch office Cisco ASA firewall"
+    },
+    {
+      "hostname": "core-switch-01",
+      "ip_address": "10.10.1.10",
+      "device_type": "cisco_ios",
+      "username": "netadmin",
+      "password": "CustomPassword456!",
+      "comment": "Data center core switch"
+    },
+    {
+      "hostname": "dist-switch-01",
+      "ip_address": "10.10.1.11",
+      "device_type": "cisco_ios",
+      "comment": "Distribution switch floor 1"
+    }
+  ]
+}
